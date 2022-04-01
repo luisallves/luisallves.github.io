@@ -6,7 +6,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
 
 
         
@@ -16,26 +16,60 @@
             font-size: 65px;
             font-weight: 700;
             letter-spacing: -2px;
-            color: #1D3557;
+            color: #0077b6;
         }
 
     #foto20 {
+        border-style: solid ;
+        border-width: 10px;
+        border-color: #0077b6;
         border-radius: 50%;
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         object-fit: cover;
         object-position: 0px 0px;
     }  
 
         body{
-            background-color: #F1FAEE;
+            background-color: #f8f9fa;
             font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            color: #6c757d;
         }
-
-        h3 {
-            color: #457B9D;
+        
+        .padraoAp {
+            color: #343a40;
+            font-weight: 600;
+            font-size: 35;
+        }
+        .button{
+            color: #ffffff;
+            background-color: #0077b6;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-decoration: none;
             font-weight: 700;
-            font-size: 30
+            font-size: 20px;
+        }
+        
+        .button2{
+            color: #ffffff;
+            background-color: #47beff;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 20px;
+        }
+    
+            .parag{
+            line-height: 50px;
+            }
+        
+        h3 {
+            color: #0077b6;
+            font-weight: 700;
+            font-size: 25px
             ;
         }
     </style>
@@ -44,12 +78,14 @@
 <body>
     <h1>Luís Fernando Alves</h1>
     <img id="foto20" src="foto-luis.jpeg" alt="Foto do Luís">
-    <h3 id="apres">Apresentação</h3>
-    <p>Olá me chamo <strong>Luís F. Alves</strong>, e esse é o meu portifólio, sou <em>Brasileiro</em> e mineiro nascido em Belo Horizonte <br> mas fui criado em Sete Lagoas, cidade localizada à 70km da capital.</p>
-    <p>Estudante de desenvolvimento Web na Trybe | Futuro <strong>Desenvolvedor Full Stack</strong></p>
-    <a href="https://github.com/luisallves" target="blank">GitHub</a>
+    <h3 >Apresentação</h3>
+    <p class="padraoAp">Olá me chamo <strong>Luís F. Alves</strong>, e esse é o meu portifólio, sou <em>Brasileiro</em> e mineiro nascido em Belo Horizonte <br> mas fui criado em Sete Lagoas, cidade localizada à 70km da capital.</p>
+    <p class="padraoAp">Estudante de desenvolvimento Web na Trybe | Futuro <strong>Desenvolvedor Full Stack</strong></p><br>
+    <a class="button" href="https://github.com/luisallves" target="blank">GitHub</a>
+  
+    <a class="button" href="https://www.linkedin.com/in/luis-alves-849572235/" target="blank">LinkedIn</a>
     <br>
-    <a href="https://www.linkedin.com/in/luis-alves-849572235/" target="blank">LinkedIn</a>
+    <br>
     <h3 id="hab">Habilidades</h3>
     <ul>
         <li>Comunicativo</li>
@@ -65,17 +101,16 @@
         <li>Personalizo camisetas</li>
     </ul>
     <h3>Algumas curiosidades</h3>
-    <a href="https://www.instagram.com/luis.allves/" target="blank">Meu instagram</a>
-    <br>
-    <a href="https://www.instagram.com/namoradosinspirados/" target="blank">Blog favorito</a>
+    <a class="button" href="https://www.instagram.com/luis.allves/" target="blank">Meu instagram</a>
+    <a class="button" href="https://www.instagram.com/namoradosinspirados/" target="blank">Blog favorito</a>
 
     <h3>Sumário:</h3>
-    <a href="#foto20">Minha foto</a>
-    <br>
-    <a href="#apres">Apresentação</a>
-    <br>
-    <a href="#hab">Habilidades</a>
-    <br>
-    <a href="#ouhab">Outras habilidades</a>
+    <p class="parag"><a class="button" href="#foto20">Minha foto</a><br>
+   
+    <a class="button" href="#apres">Apresentação</a><br>
+
+    <a class="button" href="#hab">Habilidades</a><br>
+   
+    <a class="button" href="#ouhab">Outras habilidades</a></p>
 </body>
 </html>
