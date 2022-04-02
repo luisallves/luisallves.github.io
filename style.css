@@ -1,62 +1,49 @@
-
-h1{
-    font-size: 65px;
-    font-weight: 700;
-    letter-spacing: -2px;
-    color: #0077b6;
+*{
+    margin: 0;
+    padding: 0;
+    /* border: red 1px solid; */
 }
-
-#foto20 {
-border-style: solid ;
-border-width: 10px;
-border-color: #0077b6;
-border-radius: 50%;
-width: 200px;
-height: 200px;
-object-fit: cover;
-object-position: 0px 0px;
-}  
-
-body{
-    background-color: #f8f9fa;
+/* 
+Palheta de cores:
+preto #000000
+verde petroleo #14213d
+amarelo ouro #fca311
+cinza #e5e5e5
+branco #ffffff
+ */
+body {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    color: #6c757d;
+    background-color: #eeeeee;
 }
 
-.padraoAp {
-    color: #343a40;
-    font-weight: 600;
-    font-size: 35;
-    width: 70%;
-}
-.button{
-    color: #ffffff;
-    background-color: #0077b6;
-    padding: 10px 20px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 20px;
+.banner {
+    background-color: #fca311;
+
 }
 
-.button2{
-    color: #ffffff;
-    background-color: #47beff;
-    padding: 10px 20px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 20px;
+
+.start-bar {
+    background-color: #e5e5e5;
+    display: inline-block;
+}
+.name {
+    color: #14213d;
+    font-size: 15px;
+    width: 180px;
+    height: 100%;;
+    
+    text-align:center; 
 }
 
-    .parag{
-    line-height: 50px;
-    }
-
-h3 {
-    color: #0077b6;
-    font-weight: 700;
+.button-name h1 {
     font-size: 25px
-    ;
-}
+
+}   
+.button-name {
+       
+        text-decoration: none;
+        color: #14213d;
+        padding:100%;
+        height: 100%;
+        /* border-color: blue; */
+    }
