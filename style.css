@@ -1,49 +1,90 @@
-*{
-    margin: 0;
-    padding: 0;
-    /* border: red 1px solid; */
-}
-/* 
-Palheta de cores:
-preto #000000
-verde petroleo #14213d
-amarelo ouro #fca311
-cinza #e5e5e5
-branco #ffffff
- */
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #eeeeee;
-}
 
-.banner {
-    background-color: #fca311;
+    body{
+        background-color: beige;
+        padding: 3%;
+        font-family: Montserrat,sans-serif;
+        
+    }
 
-}
+    .gitin {
+        /* border: black solid 2px; */
+        background-color: white;
+        width: 240px;
+        height: 50px;
+        position: relative;
+        font-size: 20px;
+        
+    }
+ 
 
 
-.start-bar {
-    background-color: #e5e5e5;
-    display: inline-block;
-}
-.name {
-    color: #14213d;
-    font-size: 15px;
-    width: 180px;
-    height: 100%;;
-    
-    text-align:center; 
-}
-
-.home-button h1 {
-    font-size: 25px
-
-}   
-.home-button {
-       
+    #lkdin {
+        position: absolute;
+        right: 10px;
+        margin: 10px;
+        font-size: 20px;
         text-decoration: none;
-        color: #14213d;
-        padding:100%;
-        height: 100%;
-        /* border-color: blue; */
+        font-weight: 600;
+        
+    }
+
+    #git{
+        position: absolute;
+        margin: 10px;
+        left: 10px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .ha1{
+        font-size: 35px;
+    }
+    .ha2{
+        font-size: 30px;
+    }
+    .ha3{
+        font-size: 25px;
+    }
+    .ha4{
+        font-size: 30px;
+    }
+    .ha5{
+        font-size: 35px;
+    }
+    .ha6{
+        font-size: 40px;
+    }
+
+    #profile-picture {
+        float: left;
+        height: 280px;
+        width: 220px;
+        padding: 10px;
+        background-color:white
+    }
+
+    .my-name{
+        text-align: center;
+    }
+
+    .image-container{
+
+        height: 300px;
+        position: relative;
+    }
+
+    .descricao{
+        position: absolute;
+        left: 290px;
+        height: 220px;
+        width: 320px;
+        font-size: 20px;
+    }
+
+    div {
+        /* border: 2px solid green; */
+    }
+
+    ul li:nth-child(odd) {
+        background-color:aqua;
     }
